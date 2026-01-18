@@ -1,0 +1,20 @@
+Package: ppmlcosts
+Type: Package
+Title: Shared Functions for Analyzing Cost Data
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Marissa", "Reitsma",
+      email = "mreitsma@stanford.edu",
+      role = c("aut", "cre")
+    )
+  )
+Description: Processes deflator series and provides a function to deflate costs.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
+Suggests: 
+    testthat (>= 3.0.0)
+Depends: 
+    R (>= 3.5)
