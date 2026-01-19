@@ -12,10 +12,9 @@ if (!require("stats")) install.packages("stats")
 library(devtools)
 
 # Step 1: Prepare your deflator data
-cat("Step 1: Preparing deflator data...\n")
-
-# Uncomment this line after editing prepare_deflators.R:
+cat("Step 1: Preparing deflator and cost data...\n")
 source("data-raw/prepare_deflators.R")
+source("data-raw/prepare_cost_parameters.R")
 
 # Step 2: Generate documentation
 cat("Step 2: Generating documentation...\n")
